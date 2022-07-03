@@ -37,23 +37,41 @@
         position: relative;
         top: 5em;
       }
+      
+      .linkIcon {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        transition: transform 0.2s ease-in;
+      }
+
+      .linkIcon img {
+        display: inline-block;
+        width: 100%;
+      }
+
+      .linkIcon:hover,
+      .linkIcon:active {
+        transform: scale(115%);
+      }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <img src="resources/0721_hwd_close.png" class="logo">
-
-      <ul>
-        <li><a href="https://github.com/Hwd405" title="Github" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://twitter.com/Hwd405" title="Twitter" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://www.youtube.com/c/Hwd405" title="YouTube" target="_blank"><img src="resources/icon-yt.png"></a></li>
-        <li><a href="https://ko-fi.com/hwd405" title="Ko-Fi" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://www.mamemamelabs.com/" title="MameMame Labs" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://mamemamelibrary.crd.co/" title="MameMame Library" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://hwd405.github.io/" title="Super Secret Project" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-        <li><a href="https://archive.org/details/@hwd405" title="Archive" target="_blank"><img src="resources/icon-mystery.png"></a></li>
-      </ul>
-
+      <section>
+        <a class="linkIcon" href="https://github.com/Hwd405" title="Github" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://twitter.com/Hwd405" title="Twitter" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://www.youtube.com/c/Hwd405" title="YouTube" target="_blank"><img src="resources/icon-yt.png"></a>
+        <a class="linkIcon" href="https://ko-fi.com/hwd405" title="Ko-Fi" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://www.mamemamelabs.com/" title="MameMame Labs" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://mamemamelibrary.crd.co/" title="MameMame Library" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://hwd405.github.io/" title="Super Secret Project" target="_blank"><img src="resources/icon-mystery.png"></a>
+        <a class="linkIcon" href="https://archive.org/details/@hwd405" title="Archive" target="_blank"><img src="resources/icon-mystery.png"></a>
+      </section>
     </div>
   </body>
 </html>
