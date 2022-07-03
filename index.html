@@ -11,7 +11,6 @@
       }
       
       .logo{
-        border-radius: 50%;
         width: 300px;
         height: 300px;
       }
@@ -47,21 +46,30 @@
         transition: transform 0.2s ease-in;
       }
 
+      .logo img {
+        display: inline-block;
+        border-radius: 50%;
+        width: 100%;
+      }
+
       .linkIcon img {
         display: inline-block;
         width: 100%;
       }
+      
+      .logo:hover,
+      .logo:active {
+        transform: scale(115%);
+      }
 
       .linkIcon:hover,
-      .linkIcon:active,
-      .logo:hover {
+      .linkIcon:active {
         transform: scale(115%);
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
-      <img src="resources/0721_hwd_close.png" class="logo">
       <a class="logo" href="https://twitter.com/mrsdrpepper" title="Artist" target="_blank"><img src="resources/0721_hwd_close.png"></a>
       <section>
         <a class="linkIcon" href="https://github.com/Hwd405" title="Github" target="_blank"><img src="resources/icon-mystery.png"></a>
